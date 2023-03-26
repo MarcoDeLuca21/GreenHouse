@@ -44,44 +44,20 @@ if ($result) {
 
     if($resultventola){
     $statusVentola= mysqli_fetch_array($resultventola)['value'];}
-
-    /*if (!$livello_acqua) {
-        $stile_liv_acqua = 'style="color:red"';
-    } else {
-        $stile_liv_acqua = 'style="color:green"';
+    
+    if ($statusLuce) {
+        $check_luce = 'checked';} 
+    else {
+        $check_luce = '';
     }
-
-    if ($temperatura <= 5 || $temperatura >= 30) {
-$stile_temp = 'style="color:red"';
-} else {
-$stile_temp = 'style="color:green"';
+    if ($statusVentola) {
+        $check_ventola = 'checked';
+    }
+    else {
+        $check_ventola = '';
+    }
 }
-
-if ($umidita_aria <= 5 || $umidita_aria >= 30) {
-$stile_umi_aria = 'style="color:red"';
-} else {
-$stile_umi_aria = 'style="color:green"';
-}
-
-if ($umidita_aria <= 5 || $umidita_terra >= 30) {
-$stile_umi_terra = 'style="color:red"';
-} else {
-$stile_umi_terra = 'style="color:green"';
-}*/
-
-if ($statusLuce) {
-    $check_luce = 'checked';
-} else {
-    $check_luce = '';
-}
-
-if ($statusVentola) {
-    $check_ventola = 'checked';
-} else {
-    $check_ventola = '';
-}
-
-} else {
+else {
 echo 'Non sono riuscito a recuperare i valori';
 die();
 }
