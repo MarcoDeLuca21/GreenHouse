@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Green House</title>
+    <meta name="description" content="Green House site" >
+    <meta name="keywords" content="ppm elaborato, green house, plants, arduino">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maxiumum=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="stylebutton.css" type="text/css">
+    <link rel="stylesheet" href="styleMobile.css" type="text/css">
+    <link rel="stylesheet" href="styleTable.css" type="text/css">
+</head>
+
+<body>
+<nav class="navbar">
+    <div class="logo">
+        <a href="index.html" title="Green House" id="brand">
+            <img src="image/white-leaf.png" alt="logo Green House" width="50" height="50">
+        </a>
+        <a href="index.html" title="Green House" id="title">
+            Green House
+        </a>
+    </div>
+
+    <div class="container1">
+        <div class="link">
+            <a href="index.html" title="home">
+                <img src="image/home-logo.png" alt="home" width="15" height="15">
+                Home
+            </a>
+        </div>
+        <div class="link">
+            <a href="internal-condition.html" title="internal condition">
+                <img src="image/white-cloud.png" alt="internal condition" width="20px" height="20px">
+                Internal condition
+            </a>
+        </div>
+        <!--<div class="link">
+            <a href="summary.html" title="summary">
+                <img src="image/summary.png" alt="summary" width="20" height="20" id="brandsummary" >
+                Summary
+            </a>
+        </div>-->
+    </div>
+</nav>
+
+<section class="container-table">
+    <div class="block-home">
+        <div class="subcontainer2">
+            <div id="title-blockinternal">
+                <h3>
+                    COME FUNZIONA GREEN HOUSE?
+                </h3>
+                <hr>
+            </div>
+            <div id="para-internal">
+                Attraverso questa pagina puoi gestire la serra in base alle tue esigenze.<br>
+                Nelle tabelle presenti potrai visualizzare i valori attuali dei sensori. Inoltre potrai effetturare azioni come
+                accensione e spegnimento di una ventola e una lampada con un semplice click così da modificare le condizioni
+                climatiche all'interno della tua serra.
+            </div>
+            <div class="Action-table">
+                <table class="styled-table">
+                    <thead>
+                    <tr class="title-table"><td>SENSORI</td><td>AZIONI</td></tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <div class="loghi-tabella">
+                                <img src="image/ventola.png" alt="logo ventola" width="50" height="45">
+                                <p>Ventola</p>
+                            </div>
+                        </td>
+                        <td>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="loghi-tabella">
+                                <img src="image/luce.png" alt="logo Luce" width="50" height="50">
+                                <p>Luce</p>
+                            </div>
+                        </td>
+                        <td>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="Sensor-table">
+            <table class="styled-table">
+            <thead>
+            <tr class="title-table"><td>SENSORI</td><td>VALORI</td></tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <div class="loghi-tabella">
+                        <img src="image/humidity.png" alt="logo Umidità" width="50" height="45">
+                        <p>Umidità Aria</p>
+                    </div>
+                </td>
+                <td>Dato 1,2</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="loghi-tabella">
+                        <img src="image/umiditaterra.png" alt="logo Umidità" width="50" height="45">
+                        <p>Umidità Terra</p>
+                    </div>
+                </td>
+                <td>Dato 2,2</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="loghi-tabella">
+                        <img src="image/temp-png.jpg" alt="logo Temperatura" width="50" height="50">
+                        <p>Temperatura</p>
+                    </div>
+                </td>
+                <td>Dato 3,2</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="loghi-tabella">
+                        <img src="image/water-level.png" alt="logo Livello Acqua" width="50" height="50">
+                        <p id="livelloAcqua">Livello acqua</p>
+                    </div>
+                </td>
+                <td>Dato 4,2</td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+</section>
+
+<section class="imagine">
+    <img src="image/possibile_sfondo2.jpg" >
+</section>
+
+<footer class="copyright">
+    <div>
+        <p>
+            Copyright © 2022
+            <br>
+            Marco De Luca, Matteo Ciucani
+        </p>
+    </div>
+    <div class="logoUNI">
+        <img src="image/Logo_universita_firenze.png" width="200" height="100">
+    </div>
+</footer>
+</body>
+</html>

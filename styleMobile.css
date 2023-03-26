@@ -1,0 +1,132 @@
+@media only screen and (max-width: 767px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .container1{
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        padding-bottom: 25px;
+    }
+
+    .container1 a:link{
+        font-size: 12px;
+    }
+
+    .link img{
+        display: none;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        padding-top: 0;
+        padding-left: 0;
+        padding-bottom: 5px;
+    }
+
+    #title{
+        font-size: 45px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #brand img{
+        height: 35px;
+        width: 35px;
+        margin-bottom: 5px;
+    }
+
+    .container-home{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-home{
+        margin-top: 120px;
+    }
+
+    .subcontainer1{
+        margin: 5% 7% 5% 7%;
+    }
+
+    .img-home{
+        display: none;
+    }
+
+    .copyright{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .copyright p{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 25px;
+    }
+
+    .logoUNI{
+        display: none;
+    }
+
+    .Action-table{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-table{
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+
+    .block-home{
+        display: flex;
+        flex-direction: column;
+        background-color: #cce9f7;
+        margin: 0 0 0 0;
+    }
+
+    .block-home td{
+        padding: 18px 18px 18px 18px;
+    }
+
+    .block-home tbody tr td{
+        background-color: white;
+    }
+
+    #livelloAcqua{
+        font-size: 19px;
+    }
+
+    .subcontainer2{
+        margin: 0 0 0 0;
+    }
+
+    #title-blockinternal{
+        display: none;
+    }
+
+    #para-internal{
+        display: none;
+    }
+
+    .Sensor-table{
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        margin-right: 0;
+    }
+}
